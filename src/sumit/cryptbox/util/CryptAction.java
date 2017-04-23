@@ -118,6 +118,11 @@ public class CryptAction extends SwingWorker<Integer, String>
                     {
                         if(strSelectedFileExtension.compareTo(strCryptExtension) != 0)
                         {
+                        
+                        // OBSERVATION:
+                        // The option for decyprting normal file should have been not provided.
+                        // Currently, if this option is selected, the contents in the original source file contents are deleted.
+                        
                             int intUserOption = JOptionPane.showConfirmDialog(null, "Are you sure to decrypt a normal file?\n\nYES - Decrypt a normal file\nNO - Encrypt a normal file\nCANCEL - Cancel decryption of a normal file", "CryptBox", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
                             if(intUserOption == JOptionPane.YES_OPTION)
                             {
