@@ -278,6 +278,12 @@ public class dialogStart extends javax.swing.JDialog
         }
     }//GEN-LAST:event_btnCancelActionPerformed
     //</editor-fold>
+   
+   //OBSERVATIONS
+     //CBHSM COMMENT //FOLLOWING CHECKINGS ARE CARRIED OUT    
+    //COMPARISION OF BOTH PASSWORD AND RE-ENTER PASSWORD FIELDS ARE COMPARED AND DECISION IS TAKEN
+     //CBHSM COMMENT 
+    //NO LENGTH VALIDATION CHECKINGS 
     
     //<editor-fold defaultstate="collapsed" desc="OK dialogStart - btnOKActionPerformed">
     private void btnOKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOKActionPerformed
